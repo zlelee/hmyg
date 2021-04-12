@@ -1,22 +1,20 @@
 {
-  "pages": [
-    {
-      "path":"pages/home/home"
+  "pages": [{
+      "path": "pages/home/home"
     },
     {
-      "path":"pages/cate/cate"
+      "path": "pages/cate/cate"
     },
     {
-      "path":"pages/cart/cart"
+      "path": "pages/cart/cart"
     },
     {
-      "path":"pages/my/my"
+      "path": "pages/my/my"
     }
   ],
   "tabBar": {
     "selectedColor": "#c00000",
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/home/home",
         "text": "首页",
         "iconPath": "static/tab_icons/home.png",
@@ -40,17 +38,14 @@
         "iconPath": "static/tab_icons/my.png",
         "selectedIconPath": "static/tab_icons/my-active.png"
       }
-      ]
-      },
-      
-  
+    ]
+  },
+
+
   "globalStyle": {
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "white",
     "navigationBarTitleText": "黑马优购",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8",
-    "app-plus": {
-      "background": "#efeff4"
-    }
+    "navigationBarBackgroundColor": "#C00000",
+    "backgroundColor": "#FFFFFF"
   }
 }
