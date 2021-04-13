@@ -52,7 +52,8 @@
         "appid" : "wxecfbe094e8c8129d",
         "setting" : {
             "urlCheck" : false,
-            "checkSiteMap" : false
+            "checkSiteMap" : false,
+            "es6" : true
         },
         "usingComponents" : true
     }
